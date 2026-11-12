@@ -6,7 +6,7 @@
 - Figma
 - Homebrew
 - Mac Mouse Fix v2 (https://macmousefix.com/)
-- iTerm2 + oh-my-zsh + starship.rs
+- Ghostty + starship.rs
 - FiraCode Nerd Font
     
 
@@ -25,3 +25,9 @@
   "^$\UF72B" = moveToEndOfDocumentAndModifySelection:; // ctrl-shift-end
 }
 ```
+
+# To be placed
+
+- `.zshrc` - `$HOME/`
+- `starship.toml` - `$HOME/.config/`
+- `config.ghostty` - `$HOME/Library/Application Support/com.mitchellh.ghostty/`

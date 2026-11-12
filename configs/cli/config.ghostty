@@ -1,0 +1,13 @@
+# $HOME/Library/Application Support/com.mitchellh.ghostty/config.ghostty
+
+theme=TokyoNight
+
+font-family="FiraCode Nerd Font"
+font-size=13
+font-style=Retina
+
+shell-integration-features=no-cursor
+cursor-style=block
+
+window-padding-y=5
+copy-on-select=false
