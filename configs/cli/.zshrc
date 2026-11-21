@@ -1,14 +1,9 @@
+# -------------------------------- #
+# Zsh
+# -------------------------------- #
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+autoload -Uz compinit && compinit
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# -------------------------------- #
-# Oh my zsh
-# -------------------------------- #
-export ZSH="$HOME/.oh-my-zsh"
-zstyle ':omz:update' mode auto      # update automatically without asking
-zstyle ':omz:update' frequency 7
-
-plugins=(sudo)
-source $ZSH/oh-my-zsh.sh
 
 # -------------------------------- #
 # Alias
